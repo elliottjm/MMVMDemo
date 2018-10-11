@@ -24,13 +24,13 @@
     
     
     
-//    LSCircleListViewController *homePageVC = [[LSCircleListViewController alloc] init];
-//    YDNavigationController *navVC = [[YDNavigationController alloc] initWithRootViewController:homePageVC];
-//
-//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-//    self.window.backgroundColor = [UIColor whiteColor];
-//    self.window.rootViewController = navVC;
-//    [self.window makeKeyAndVisible];
+    LSCircleListViewController *homePageVC = [[LSCircleListViewController alloc] init];
+    YDNavigationController *navVC = [[YDNavigationController alloc] initWithRootViewController:homePageVC];
+
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = navVC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
